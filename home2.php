@@ -15,18 +15,15 @@
     <link rel="stylesheet" type="text/css" href="examples.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- front chữ -->
+    
+    <link rel="stylesheet" type="text/css" href="dist/css/slider-tienich.css" /> <!-- tiện ích -->
+    
+    <!-- thư viện -->
+    <link href="http://localhost/www/nhaongay/css/swiper-bundle.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="dist/css/custom.css" /> <!-- main -->
-    <link rel="stylesheet" type="text/css" href="dist/css/slider-tienich.css" /> <!-- tiện ích -->
     <link rel="stylesheet" type="text/css" href="dist/css/responsive.css" /> <!-- responsive -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- front chữ -->
-
-    <!-- thư viện -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="dist/css/thuvien.css" /> <!-- tiện ích -->
-
 
 </head>
 <body>
@@ -68,6 +65,21 @@
         <video id="myVideo" loop muted data-autoplay playsinline>
             <!-- <source src="https://vinhomes.vn/themes/porto/video/video-theempire.mp4" type="video/mp4"> -->
         </video>
+        <button data-toggle="modal" data-target="#trangchu" type="button">Chi tiết</button>
+        <div class="modal fade bd-example-modal-lg" id="trangchu" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <p>Located at the gateway of Hanoi - Hai Phong highway, in the territory of 2 communes Nghia Tru and Long Hung, Van Giang district, Hung Yen province. Vinhomes Ocean Park 2 - The Empire urban area is parallel to the arterial road connecting "Economic triangle: Hanoi - Hai Phong - Ha Long".</p>
+                    <p>In addition, the project also fully owns the key traffic connections of Gia Lam from everywhere to Vinhomes Ocean Park - The Empire including Co Linh Interchange (400 billion): Completed in January 2021 and broaden with 4 lanes, expected to be completed in 2023.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
         <div class="content">
             <p>Located at the gateway of Hanoi - Hai Phong highway, in the territory of 2 communes Nghia Tru and Long Hung, Van Giang district, Hung Yen province. Vinhomes Ocean Park 2 - The Empire urban area is parallel to the arterial road connecting "Economic triangle: Hanoi - Hai Phong - Ha Long".</p>
             <p>In addition, the project also fully owns the key traffic connections of Gia Lam from everywhere to Vinhomes Ocean Park - The Empire including Co Linh Interchange (400 billion): Completed in January 2021 and broaden with 4 lanes, expected to be completed in 2023.</p>
@@ -199,10 +211,10 @@
     </div>
 
     <div class="section phankhu">
-        <div>
-            <img src="imgs/matbang.jpg">
-        </div>
+        <img src="imgs/matbang.jpg">
     </div>
+
+
     <!-- <div class="section tintuc">
         <div class="container">
             <h2>TIN TỨC</h2>
@@ -266,84 +278,75 @@
         </div>
     </div> -->
     <div class="section thuvien">
-        <div class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title">
-                            <h2>THƯ VIỆN HÌNH ẢNH</h2>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="text-center">
+                <div class="primary-title">
+                    <h2>THƯ VIỆN HÌNH ẢNH</h2>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="owl-carousel slider1 client-testimonial-carousel">
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
-                            </div>
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
-                            </div>
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
-                            </div>
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
-                            </div>
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
-                            </div>
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
-                            </div>
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
-                            </div>
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+            </div>
+
+            <div class="position-relative broker-slider1">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img data-toggle="modal" data-target="#myModal" src="imgs/tinich.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img data-toggle="modal" data-target="#myModal" src="imgs/tinich.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img data-toggle="modal" data-target="#myModal" src="imgs/tinich.png">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination d-lg-none"></div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-lg" id="myModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                </button>
+                    <div class="modal-body">
+                        <div class="position-relative broker-slider2">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-toggle="modal" data-target="#myModa" src="imgs/tinich1.png">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-toggle="modal" data-target="#myModa" src="imgs/tinich1.png">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img data-toggle="modal" data-target="#myModa" src="imgs/tinich1.png">
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination d-lg-none"></div>
                             </div>
                         </div>
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
-
-
-        <div class="modal fade bd-example-modal-lg" id="myModal" role="dialog">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-body">
-                    <div class="owl-carousel slider2 client-testimonial-carousel">
-                        <div class="single-testimonial-item">
-                            <img src="imgs/tinich1.png">
-                        </div>
-                        <div class="single-testimonial-item">
-                            <img src="imgs/tinich1.png">
-                        </div>
-                        <div class="single-testimonial-item">
-                            <img src="imgs/tinich1.png">
-                        </div>
-                        <div class="single-testimonial-item">
-                            <img src="imgs/tinich1.png">
-                        </div>
-                        <div class="single-testimonial-item">
-                            <img src="imgs/tinich1.png">
-                        </div>
-                        <div class="single-testimonial-item">
-                            <img src="imgs/tinich1.png">
-                        </div>
-                        <div class="single-testimonial-item">
-                            <img src="imgs/tinich1.png">
-                        </div>
-                        <div class="single-testimonial-item">
-                            <img src="imgs/tinich1.png">
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-        </div>
-
     </div>
 
     <div class="section dangky">
@@ -390,28 +393,8 @@
 <script src="dist/js/demo.js"></script>
 
 <!-- thư viện -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="http://localhost/www/nhaongay/js/swiper-bundle.min.js"></script>
 <script src="dist/js/thuvien.js"></script>
-
-<script type="text/javascript">
-    jQuery(document).ready(function($) {
-        var alterClass = function() {
-            var ww = document.body.clientWidth;
-            if (ww < 414) {
-                $('.owl-carousel').removeClass('slider1');
-                $('.owl-carousel').addClass('slider2');
-            } else if (ww >= 414) {
-                $('.owl-carousel').addClass('slider1');
-                $('.owl-carousel').removeClass('slider2');
-            };
-        };
-        $(window).resize(function(){
-            alterClass();
-        });
-            alterClass();
-    });
-</script>
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {

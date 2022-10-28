@@ -28,6 +28,7 @@
 	.thuvien .single-testimonial-item img{ height: 30vh; }
 	.thuvien .modal-lg { width: 96% !important;}
 
+
 }
 
 @media (max-width: 414px){
@@ -38,5 +39,6 @@
 	.thuvien .slider2 .single-testimonial-item img{ height: 50vh !important; }
 	.thuvien .modal-lg{ margin-top: 25vh; }
 	.thuvien .modal-lg { width: 94% !important;}
+	.thuvien .container{ margin: inherit !important; }
 
 }

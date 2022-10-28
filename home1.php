@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /
     >
-    <title>Navigation tooltips - fullPage.js</title>
+    <title>https://vinhomesinvest.net/</title>
     <meta name="author" content="Matthew Howell" />
     <meta name="description" content="fullPage continuous scrolling demo." />
     <meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
@@ -13,13 +13,19 @@
 
     <link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
     <link rel="stylesheet" type="text/css" href="examples.css" />
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <link rel="stylesheet" type="text/css" href="dist/css/custom.css" />
-    <link rel="stylesheet" type="text/css" href="dist/css/slider.css" />
-    <link rel="stylesheet" type="text/css" href="dist/css/responsive.css" />
 
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <link rel="stylesheet" type="text/css" href="dist/css/custom.css" /> <!-- main -->
+    <link rel="stylesheet" type="text/css" href="dist/css/slider-tienich.css" /> <!-- tiện ích -->
+    <link rel="stylesheet" type="text/css" href="dist/css/responsive.css" /> <!-- responsive -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- front chữ -->
+
+    <!-- thư viện -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="dist/css/thuvien.css" /> <!-- tiện ích -->
 
 
 </head>
@@ -27,9 +33,6 @@
     <div id="menu" class="menu">
         <div class="logo">
             <a href="."><img src="imgs/logo.png"></a>
-        </div>
-        <div class="d-none">
-            <button>Menu</button>
         </div>
         <ul class="m-none">
             <li data-menuanchor="trangchu" class="active"><a href="#trangchu">Trang chủ</a></li>
@@ -41,6 +44,21 @@
             <li data-menuanchor="dangky"><a href="#dangky">Đăng ký</a></li>
             <li data-menuanchor="lienhe"><a href="#lienhe">Liên hệ</a></li>
         </ul>
+
+        <div class="dropdown d-none">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-reorder"></i></button>
+            <ul class="dropdown-menu">
+                <li data-menuanchor="trangchu" class="active"><a href="#trangchu">Trang chủ</a></li>
+                <li data-menuanchor="vitri"><a href="#vitri">Vị trí</a></li>
+                <li data-menuanchor="tienich"><a href="#tienich">Tiện ích</a></li>
+                <li data-menuanchor="phankhu"><a href="#phankhu">Phân khu</a></li>
+                <!-- <li data-menuanchor="tintuc"><a href="#tintuc">Tin tức</a></li> -->
+                <li data-menuanchor="thuvien"><a href="#thuvien">Thư viện</a></li>
+                <li data-menuanchor="dangky"><a href="#dangky">Đăng ký</a></li>
+                <li data-menuanchor="lienhe"><a href="#lienhe">Liên hệ</a></li>
+            </ul>
+        </div>
+
     </div>
     
 
@@ -48,7 +66,7 @@
 <div id="fullpage">
     <div class="section trangchu" id="section1">
         <video id="myVideo" loop muted data-autoplay playsinline>
-            <source src="../vinhomes2.mp4" type="video/mp4">
+            <!-- <source src="https://vinhomes.vn/themes/porto/video/video-theempire.mp4" type="video/mp4"> -->
         </video>
         <div class="content">
             <p>Located at the gateway of Hanoi - Hai Phong highway, in the territory of 2 communes Nghia Tru and Long Hung, Van Giang district, Hung Yen province. Vinhomes Ocean Park 2 - The Empire urban area is parallel to the arterial road connecting "Economic triangle: Hanoi - Hai Phong - Ha Long".</p>
@@ -180,46 +198,10 @@
     </section>
     </div>
 
-    <!-- <div class="section tienich">
-        <div class="slide active" style="background-image: url(imgs/tinich.png); background-attachment: fixed;">
-            <div class="info">
-                <h2>ĐẠI TIỆN ÍCH</h2>
-                <h3>Đại lộ Kinh đô Ánh sáng Kingdom Avenue</h3>
-                <p>Với điểm nhấn Quảng trường Empire Square và tháp điêu khắc biểu tượng Ánh sáng cao tới 30m</p>
-            </div>
+    <div class="section phankhu">
+        <div>
+            <img src="imgs/matbang.jpg">
         </div>
-        <div class="slide" style="background-image: url(imgs/tinich1.png); background-attachment: fixed;">
-            <div class="info">
-                <h2>ĐẠI TIỆN ÍCH</h2>
-                <h3>Trung tâm thương mại VINCOM MEGA MALL</h3>
-                <p>Thiên đường mua sắm, vui chơi, giải trí đẳng cấp Vincom Mega Mall lấy cảm hứng từ những làn sóng văn hoá thời thượng với hàng loạt thương hiệu hàng đầu trong nước và quốc tế, mang đến trải nghiệm tất cả trong một đầy mới mẻ</p>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url(imgs/tinich.png); background-attachment: fixed;">
-            <div class="info">
-                <h2>ĐẠI TIỆN ÍCH</h2>
-                <h3>Trung tâm thương mại VINCOM MEGA MALL</h3>
-                <p>Thiên đường mua sắm, vui chơi, giải trí đẳng cấp Vincom Mega Mall lấy cảm hứng từ những làn sóng văn hoá thời thượng với hàng loạt thương hiệu hàng đầu trong nước và quốc tế, mang đến trải nghiệm tất cả trong một đầy mới mẻ</p>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url(imgs/tinich1.png); background-attachment: fixed;">
-            <div class="info">
-                <h2>ĐẠI TIỆN ÍCH</h2>
-                <h3>Trung tâm thương mại VINCOM MEGA MALL</h3>
-                <p>Thiên đường mua sắm, vui chơi, giải trí đẳng cấp Vincom Mega Mall lấy cảm hứng từ những làn sóng văn hoá thời thượng với hàng loạt thương hiệu hàng đầu trong nước và quốc tế, mang đến trải nghiệm tất cả trong một đầy mới mẻ</p>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url(imgs/tinich.png); background-attachment: fixed;">
-            <div class="info">
-                <h2>ĐẠI TIỆN ÍCH</h2>
-                <h3>Trung tâm thương mại VINCOM MEGA MALL</h3>
-                <p>Thiên đường mua sắm, vui chơi, giải trí đẳng cấp Vincom Mega Mall lấy cảm hứng từ những làn sóng văn hoá thời thượng với hàng loạt thương hiệu hàng đầu trong nước và quốc tế, mang đến trải nghiệm tất cả trong một đầy mới mẻ</p>
-            </div>
-        </div>
-    </div> -->
-
-    <div class="section phankhu" style="background: url(imgs/phoicanh.jpg) center center;">
-
     </div>
     <!-- <div class="section tintuc">
         <div class="container">
@@ -284,116 +266,85 @@
         </div>
     </div> -->
     <div class="section thuvien">
-    <script src='dist/js/jssor.slider-28.1.0.min.js'></script>
-    <script src='dist/js/custom.js'></script>
-        <h2>THƯ VIỆN</h2>
-
-        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1024px;height:450px;visibility:hidden;">
-            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;">
-            </div>
-            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1024px;height:450px;overflow:hidden;">
-                <div style="position:relative">
-                    <img data-u="image" src="imgs/tinich.png" />
-                    <button style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0; background: #0c254e00; " type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal"></button>
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>THƯ VIỆN HÌNH ẢNH</h2>
+                        </div>
+                    </div>
                 </div>
-                <div style="position:relative">
-                    <img data-u="image" src="imgs/tinich1.png" />
-                    <button style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0; background: #0c254e00" type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal"></button>
-                </div>
-                <div style="position:relative">
-                    <img data-u="image" src="imgs/tinich.png" />
-                    <button style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0; background: #0c254e00; " type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal"></button>
-                </div>
-                <div style="position:relative">
-                    <img data-u="image" src="imgs/tinich.png" />
-                    <button style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0; background: #0c254e00; " type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal"></button>
-                </div>
-                <div style="position:relative">
-                    <img data-u="image" src="imgs/tinich1.png" />
-                    <button style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0; background: #0c254e00" type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal"></button>
-                </div>
-                <div style="position:relative">
-                    <img data-u="image" src="imgs/tinich.png" />
-                    <button style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0; background: #0c254e00; " type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal"></button>
-                </div>
-                <div style="position:relative">
-                    <img data-u="image" src="imgs/tinich.png" />
-                    <button style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0; background: #0c254e00; " type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal"></button>
-                </div>
-                <div style="position:relative">
-                    <img data-u="image" src="imgs/tinich1.png" />
-                    <button style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0; background: #0c254e00" type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal"></button>
-                </div>
-                <div style="position:relative">
-                    <img data-u="image" src="imgs/tinich.png" />
-                    <button style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0; background: #0c254e00; " type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal"></button>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel slider1 client-testimonial-carousel">
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div data-u="navigator" class="jssorb057" style="position:absolute;bottom:-30px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-                <div data-u="prototype" class="i" style="width:14px;height:14px;">
-                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                        <circle class="b" cx="8000" cy="8000" r="5000"></circle>
-                    </svg>
-                </div>
-            </div>
-        </div><script type="text/javascript">jssor_1_slider_init();</script>
-
-
+        </div>
 
 
         <div class="modal fade bd-example-modal-lg" id="myModal" role="dialog">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-body">
-                    <div id="jssor_2" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:700px;overflow:hidden;visibility:hidden;">
-                        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                    <div class="owl-carousel slider2 client-testimonial-carousel">
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
                         </div>
-                        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:700px;overflow:hidden;">
-                            <div>
-                                <img data-u="image" src="https://storage.googleapis.com/vinhomes-data-02/styles/ocp_images_1920_940/public/2022_05/PggvbLxA_1652092977.jpeg" />
-                                <img data-u="thumb" src="https://storage.googleapis.com/vinhomes-data-02/styles/ocp_images_1920_940/public/2022_05/PggvbLxA_1652092977.jpeg" />
-                            </div>
-                            <div>
-                                <img data-u="image" src="https://storage.googleapis.com/vinhomes-data-02/styles/ocp_images_1920_940/public/2022_05/VHOCP2_PC08_Baicat-2_1651721262.jpg" />
-                                <img data-u="thumb" src="https://storage.googleapis.com/vinhomes-data-02/styles/ocp_images_1920_940/public/2022_05/VHOCP2_PC08_Baicat-2_1651721262.jpg" />
-                            </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
                         </div>
-                        <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;" data-autocenter="1" data-scale-bottom="0.75">
-                            <div data-u="slides">
-                                <div data-u="prototype" class="p" style="width:190px;height:90px;">
-                                    <div data-u="thumbnailtemplate" class="t"></div>
-                                    <svg viewbox="0 0 16000 16000" class="cv">
-                                        <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
-                                        <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
-                                        <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
-                                    </svg>
-                                </div>
-                            </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
                         </div>
-                    </div><script type="text/javascript">jssor_2_slider_init();</script>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                    </div>
                 </div>
               </div>
             </div>
         </div>
 
     </div>
-
-    <?php
-        if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))
-      {
-            $secret = 'secret_key'; //Thay thế bằng mã Secret Key của bạn
-            $verify_response = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
-            $response_data = json_decode($verify_response);
-            if($response_data->success)
-            {
-                $message = 'Xác thực thành công';
-            }
-            else
-            {
-                $message = 'Không thể xác thực, vui lòng thử lại';
-            }
-       }
-    ?>
 
     <div class="section dangky">
         <h2>ĐĂNG KÝ THÔNG TIN</h2>
@@ -427,15 +378,22 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="dist/fullpage.js"></script>
 <!-- <script type="text/javascript" src="examples.js"></script> -->
 
+<!-- slider tiện ích -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/TextPlugin.min.js"></script>
 <script src="dist/js/demo.js"></script>
+
+<!-- thư viện -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="dist/js/thuvien.js"></script>
+
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
@@ -446,6 +404,8 @@
         navigation:true,
         navigationTooltips: ['Trang chủ', 'Vị trí', 'Tiện ích', 'Phân khu', 'Thư viện', 'Đăng ký', 'Liên hệ'],
         showActiveTooltip: true,
+        
+        navigationPosition: "left",
 
         menu: '#menu', // menu
         continuousVertical: true, // lăn chuột quay vòng lên đầu

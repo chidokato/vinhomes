@@ -72,14 +72,15 @@
 
 .line2{ -webkit-line-clamp: 2;     display: -webkit-box !important; -webkit-box-orient: vertical; overflow: hidden;  }
 
+
 #menu{ background-image: linear-gradient(#0d2958ad, #0d295800); padding-bottom: 50px; }
 .menu{ justify-content: space-between !important; padding-left: 100px !important; }
 .menu .logo img{ height: 100px; }
 
-
-
 .trangchu .content{ padding: 20px; }
 .trangchu .content p{ font-size: 14px; text-align: justify; }
+.trangchu button{ position: absolute; z-index: 9; bottom: 20px; right: 20px;  }
+.trangchu .modal-body p{ color: #000; font-size: 14px; text-align: left; }
 
 .vitri, .tintuc, .thuvien, .dangky, .lienhe { background-image: url(../../imgs/bg-main.png); background-attachment: fixed; }
 .vitri img{ height: 100vh; width: 100%; object-fit: cover;}
@@ -108,9 +109,12 @@
 .tintuc .iteam a{ color: #fff; }
 
 .thuvien h2{ text-align: center; color: #fff; margin-bottom: 20px; }
-.thuvien img{ object-fit: cover !important; }
+.thuvien img{ height: 50vh; width: 100%; object-fit: cover; }
+.thuvien .modal-body img{ height: 80vh; width: 100%; object-fit: cover; }
 .thuvien .modal-lg {width: 80% !important; margin-top: 10vh;}
 .thuvien .modal-body{ padding: 0; }
+.swiper-slide {cursor: pointer;}
+.swiper-pagination-bullet-active {width: 30px !important;border-radius: 10px;}
 
 .dangky h2{ color: #fff; margin-bottom: 30px; }
 .dangky p{ font-size: 14px; text-align: left; }
@@ -123,6 +127,16 @@
 .lienhe img{ height: 150px; width: auto !important; margin-bottom: 50px; }
 .lienhe p{ font-size: 14px; text-align: left; }
 
+button.close{ 
+    top: -5px;position: absolute;opacity: 1;
+    right: -5px;
+    width: 25px;
+    height: 25px; color: #0e2957;
+    box-shadow: 0px 0px 0px 2px #0e2957;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 99999999; }
+    button.close:hover{ opacity: 1; }
 
 /*jssor slider loading skin spin css*/
 .jssorl-009-spin img {
