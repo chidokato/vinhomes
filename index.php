@@ -63,7 +63,7 @@
 <div id="fullpage">
     <div class="section trangchu" id="section1">
         <video id="myVideo" loop muted data-autoplay playsinline>
-            <!-- <source src="https://vinhomes.vn/themes/porto/video/video-theempire.mp4" type="video/mp4"> -->
+            <source src="https://vinhomes.vn/themes/porto/video/video-theempire.mp4" type="video/mp4">
         </video>
         <button class="m-none" data-toggle="modal" data-target="#trangchu" type="button">Chi tiết</button>
         <div class="modal fade bd-example-modal-lg" id="trangchu" role="dialog">
