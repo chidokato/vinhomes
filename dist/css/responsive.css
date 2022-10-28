@@ -35,7 +35,7 @@
 	.thuvien .modal-lg { width: 96% !important;}
 	.section{ height: auto !important; }
 	.phankhu .modal-lg{ margin: 1vh 2%; width: 96%; }
-	.phankhu .modal-content{ height: 98vh; }
+	.phankhu .modal-content{ height: 90vh; }
 	.trangchu .content p{ color: var(--sub-color); }
 	.vitri { padding-bottom: 50px; }
 	.phankhu { padding: 50px 0px }
