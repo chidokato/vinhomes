@@ -98,10 +98,11 @@
 .phankhu { background-color: var(--main-color); }
 .phankhu .image-full{ width: 100%; height: 100%; }
 .phankhu img{ width: 100%; }
-.menu-matbang ul{ display: flex; justify-content: center; margin-top: 30px;flex-wrap: wrap; }
-.menu-matbang ul li{ padding: 10px; margin-bottom: 10px; }
-.menu-matbang ul li a{ padding: 10px; background: #e0cdae; color: #0d2958; border-radius: 10px; }
-.menu-matbang ul li a:hover{ text-decoration: none; background: #0d2958; color: #e0cdae; box-shadow: 0px 0px 2px 2px #e0cdae; }
+.menu-matbang ul{ display: flex; justify-content: center; margin-top: 10px;flex-wrap: wrap; }
+.menu-matbang ul li{ padding: 10px 0px; margin: 0 10px; border-bottom: 1px solid var(--sub-color);  }
+.menu-matbang ul li a{ padding: 10px; color: var(--sub-color); }
+.menu-matbang ul li a:hover{ text-decoration: none; background: #0d2958; color: #e0cdae; }
+.menu-matbang img{ width: auto; height: auto; }
 .phankhu .modal-body p{ color: #000; font-size: 14px; text-align: left; }
 .phankhu h2{ color: #fff; padding: 10px; }
 

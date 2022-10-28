@@ -196,16 +196,16 @@
     <div class="section phankhu">
         <h2>MẶT BẰNG PHÂN KHU DỰ ÁN</h2>
         <img src="imgs/matbang.jpg">
-        <div class="container">
+        <div class="">
             <div class="menu-matbang">
                 <ul>
-                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu Chà Là </a></li>
-                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu San Hô </a></li>
-                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu Sao Biển </a></li>
-                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu Cọ Xanh </a></li>
-                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu Hải Âu </a></li>
-                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu Đảo Dừa </a></li>
-                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu KĐAS </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> <img src="imgs/chala.png"> Phân khu Chà Là </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> <img src="imgs/sanho.png"> Phân khu San Hô </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> <img src="imgs/saobien.png"> Phân khu Sao Biển </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> <img src="imgs/coxanh.png"> Phân khu Cọ Xanh </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> <img src="imgs/haiau.png"> Phân khu Hải Âu </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> <img src="imgs/daodua.png"> Phân khu Đảo Dừa </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> <img src="imgs/kdas.png"> Phân khu KĐAS </a></li>
                 </ul>
             </div>
         </div>

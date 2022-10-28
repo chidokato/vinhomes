@@ -42,6 +42,7 @@
 	.thuvien{ padding-bottom: 50px; padding-top: 50px; }
 	.dangky{ padding-bottom: 50px; padding-top: 50px; }
 	.lienhe { padding-bottom: 50px; padding-top: 50px; }
+	.menu-matbang img{ width: auto; height: auto; }
 }
 
 @media (max-width: 414px){
@@ -56,10 +57,13 @@
 	.thuvien .container{ margin: inherit !important; }
 	.thuvien .modal-body img{ height: 60vh; }
 	.phankhu h2{ font-size: 20px; }
-	.phankhu { padding: 20px 0px }
+	.phankhu { padding: 20px 0px; padding-top: 0px; }
 	.tienich .info{ padding-bottom: 10px; padding-right: 10px; padding-left: 10px; }
 	body section.slideshow ul.navigation li.navigation-item {width: 40px;height: 40px;}
 	body section.slideshow ul.navigation { width: 150px;height: 150px; left: -55px;}
 	.thuvien{ padding-bottom: 30px; padding-top: 30px; }
 	.thuvien h2{ font-size: 18px; }
+	.menu-matbang ul{ flex-direction: column; }
+	.menu-matbang ul li{ margin: 0 20%; text-align: left; }
+	.menu-matbang ul li a{ padding-left: 0px; }
 }
