@@ -66,10 +66,10 @@
             <source src="imgs/flowers.mp4" type="video/mp4">
             <source src="imgs/flowers.webm" type="video/webm">
         </video>
-        <div class="layer">
+        <!-- <div class="layer">
             <h1>fullPage.js videos</h1>
             <p>Don't forget to add "playsinline" attribute to make it work on phones</p>
-        </div>
+        </div> -->
         <button class="m-none" data-toggle="modal" data-target="#trangchu" type="button">Chi tiết</button>
         <div class="modal fade bd-example-modal-lg" id="trangchu" role="dialog">
             <div class="modal-dialog modal-lg">
