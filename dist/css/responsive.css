@@ -1,8 +1,13 @@
+:root {
+    --main-color:#0c2753;
+    --sub-color:#E0CDAE;
+}
+
 @media (max-width: 820px){
 	.d-none{ display: block !important; }
 	.m-none{ display: none; }
 	.menu .logo img{ height: 70px; }
-
+	#menu{ background-color:#0c2651 ; }
 	#myVideo{ height: auto !important; top: auto !important; bottom: auto !important; position: relative; margin-bottom: 20px; }
 
 	.vitri img{ width: 100%; height: auto; }
@@ -27,9 +32,10 @@
 	.phankhu img{ height: auto; width: 100%; }
 	.thuvien .single-testimonial-item img{ height: 30vh; }
 	.thuvien .modal-lg { width: 96% !important;}
-	/*.section{ height: auto !important; }*/
+	.section{ height: auto !important; }
 	.phankhu .modal-lg{ margin: 1vh 2%; width: 96%; }
 	.phankhu .modal-content{ height: 98vh; }
+	.trangchu .content p{ color: var(--sub-color); }
 }
 
 @media (max-width: 414px){

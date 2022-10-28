@@ -1,3 +1,8 @@
+:root {
+    --main-color:#0c2753;
+    --sub-color:#E0CDAE;
+}
+
 .fp-watermark{ display: none; }
 .fa, .fas {
     opacity: .7;
