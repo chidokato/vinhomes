@@ -9,9 +9,9 @@
 	.menu .logo img{ height: 70px; }
 	#menu{ background-color:#0c2651 ;     padding-bottom: 10px; padding-top: 10px; }
 	#myVideo{ height: auto !important; top: auto !important; bottom: auto !important; position: relative; margin-bottom: 20px; }
-
+	.trangchu .content {padding: 20px 10px;}
 	.vitri img{ width: 100%; height: auto; margin: 0 auto; }
-	.vitri .content{ padding-left: 30px; padding-right: 30px; padding-top: 0;}
+	.vitri .content{ padding-left: 10px; padding-right: 10px; padding-top: 0;}
 	/*.vitri .row{ flex-direction: column-reverse; }*/
 	/*.trangchu, .vitri, .tintuc, .thuvien, .dangky, .lienhe{ height: auto !important;}*/
 	.trangchu{ padding-top: 80px; }
@@ -46,13 +46,20 @@
 
 @media (max-width: 414px){
 	#fp-nav.fp-left{ display: none; }	
-	.tienich h2{ font-size: 25px; }
-	.tienich h3{ font-size: 20px; }
+	.tienich h2{ font-size: 20px; }
+	.tienich h3{ font-size: 18px; }
+	.tienich p{ font-size: 14px; }
 	.thuvien .single-testimonial-item img{ height: 30vh; }
 	.thuvien .slider2 .single-testimonial-item img{ height: 50vh !important; }
 	.thuvien .modal-lg{ margin-top: 10vh; }
 	.thuvien .modal-lg { width: 94% !important;}
 	.thuvien .container{ margin: inherit !important; }
 	.thuvien .modal-body img{ height: 60vh; }
-
+	.phankhu h2{ font-size: 20px; }
+	.phankhu { padding: 20px 0px }
+	.tienich .info{ padding-bottom: 10px; padding-right: 10px; padding-left: 10px; }
+	body section.slideshow ul.navigation li.navigation-item {width: 40px;height: 40px;}
+	body section.slideshow ul.navigation { width: 150px;height: 150px; left: -55px;}
+	.thuvien{ padding-bottom: 30px; padding-top: 30px; }
+	.thuvien h2{ font-size: 18px; }
 }

@@ -4,8 +4,6 @@
     --sub-color:#E0CDAE;
 }
 
-body { background-image: url(../../imgs/bg-main.png); background-attachment: fixed;  }
-
 .fp-watermark{ display: none; }
 .fa, .fas {
     opacity: .7;
@@ -90,7 +88,6 @@ body { background-image: url(../../imgs/bg-main.png); background-attachment: fix
 .trangchu button{ position: absolute; z-index: 9; bottom: 20px; right: 20px;  }
 .trangchu .modal-body p{ color: #000; font-size: 14px; text-align: left; }
 
-.thuvien { background-color: var(--main-color-2); }
 .vitri { background-color: #1f4481;}
 .vitri img{ height: 100vh; width: 100%; object-fit: cover;}
 .vitri .content{ display: flex; flex-direction: column; text-align: left; justify-content: center; padding-left: 100px; padding-top: 180px; }
@@ -124,6 +121,7 @@ body { background-image: url(../../imgs/bg-main.png); background-attachment: fix
 .tintuc .iteam p{ font-size: 13px; }
 .tintuc .iteam a{ color: #fff; }
 
+.thuvien {background-image: url(../../imgs/bg-main.png); background-color: var(--main-color-2);}
 .thuvien h2{ text-align: center; color: #fff; margin-bottom: 20px; }
 .thuvien img{ height: 50vh; width: 100%; object-fit: cover; }
 .thuvien .modal-body img{ height: 80vh; width: 100%; object-fit: cover; }
@@ -132,14 +130,14 @@ body { background-image: url(../../imgs/bg-main.png); background-attachment: fix
 .swiper-slide {cursor: pointer;}
 .swiper-pagination-bullet-active {width: 30px !important;border-radius: 10px;}
 
-.dangky { background-color: var(--main-color); background-attachment: fixed; }
+.dangky { background-color: var(--main-color); background-attachment: fixed; background-image: url(../../imgs/bg-main.png) }
 .dangky h2{ color: #fff; margin-bottom: 30px; }
 .dangky p{ font-size: 14px; text-align: left; }
 .dangky form{ width: 40%; margin: 0 auto; }
 .dangky input{ margin-bottom: 20px; background: none; border: .5px solid #fff; color: #fff; }
 .form-control:focus{ background: none; color: #fff; }
 
-.lienhe { background-color: var(--main-color-2); }
+.lienhe { background-color: var(--main-color-2); background-image: url(../../imgs/bg-main.png) }
 .lienhe h2{ color: #fff; margin-bottom: 30px; }
 .lienhe h5{ color: #fff; text-align: left; }
 .lienhe img{ height: 150px; width: auto !important; margin-bottom: 50px; }
