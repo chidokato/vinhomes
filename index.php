@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="dist/css/slider-tienich.css" /> <!-- tiện ích -->
     
     <!-- thư viện -->
-    <link href="http://localhost/www/nhaongay/css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="dist/css/swiper-bundle.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="dist/css/custom.css" /> <!-- main -->
     <link rel="stylesheet" type="text/css" href="dist/css/responsive.css" /> <!-- responsive -->
@@ -393,7 +393,7 @@
 <script src="dist/js/demo.js"></script>
 
 <!-- thư viện -->
-<script src="http://localhost/www/nhaongay/js/swiper-bundle.min.js"></script>
+<script src="dist/js/swiper-bundle.min.js"></script>
 <script src="dist/js/thuvien.js"></script>
 
 <script type="text/javascript">
