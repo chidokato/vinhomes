@@ -110,15 +110,12 @@
 
     <div class="section tienich">
         <section class="slideshow">
- 
       <ul class="navigation">
- 
         <li class="navigation-item active">
           <span class="rotate-holder"></span>
           <span class="background-holder" style="background-image: url(imgs/tinich.png);"></span>
         </li>
         <!-- slideshow:navigation:item END -->
-
         <!-- slideshow:navigation:item START -->
         <li class="navigation-item">
           <span class="rotate-holder"></span>
@@ -139,11 +136,6 @@
           <span class="rotate-holder"></span>
           <span class="background-holder" style="background-image: url(imgs/tinich1.png);"></span>
         </li>
-       
-
-        
-       
-
       </ul>
       
       <div class="detail">
@@ -153,10 +145,8 @@
             <h3>Công viên Royal Wave Park quy mô lên tới 18ha</h3>
             <p>Đắm chìm trong những con sóng hạnh phúc bất tận tại Công viên  Royal Wave Park, trái tim của Vinhomes Ocean Park 2 - The Empire, lấy cảm hứng từ ”vương quốc” huyền bí Atlantis có quy mô lên tới 18ha với hàng loạt tiện ích tầm cỡ thế giới.</p>
         </div></div>
-          
         </div>
         <!-- slideshow:details END -->
-        
         <!-- slideshow:details START -->
         <div class="detail-item">
             
@@ -198,17 +188,13 @@
             </div></div>
         </div>
         <!-- slideshow:details END -->
-        
-        
-     
-        
       </div>
       <!-- slideshow:details END -->
-
     </section>
     </div>
 
     <div class="section phankhu">
+        <h2>MẶT BẰNG PHÂN KHU DỰ ÁN</h2>
         <img src="imgs/matbang.jpg">
         <div class="container">
             <div class="menu-matbang">
@@ -422,7 +408,7 @@
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#0c254e', '#0c254e', '#0c254e', '#0c254e', '#0c254e', '#0c254e', '#0c254e'], // backgroud corlor
+        // sectionsColor: ['#0c254e', '#1f4481', '#0c254e', '#0c254e', '#0c254e', '#0c254e', '#0c254e'], // backgroud corlor
 
         anchors: ['trangchu', 'vitri', 'tienich', 'phankhu', 'thuvien', 'dangky', 'lienhe'],
         // verticalCentered: false,

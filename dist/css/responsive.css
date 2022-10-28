@@ -16,7 +16,8 @@
 	/*.trangchu, .vitri, .tintuc, .thuvien, .dangky, .lienhe{ height: auto !important;}*/
 	.trangchu{ padding-top: 80px; }
 	.vitri{ padding-top: 30px; }
-	body section.slideshow .detail .detail-item .background{ position: unset;transform: none !important; }
+	body section.slideshow { height: 50vh; }
+	body section.slideshow .detail .detail-item .background{ position: unset;transform: none !important; height: 50vh !important; }
 	.tienich p{ width: 95%; }
 	body section.slideshow ul.navigation li.navigation-item{ width: 60px; height: 60px; }
 	body section.slideshow ul.navigation{ width: 200px; height: 200px; left: -75px; bottom: 50%; margin-top: auto; }
@@ -36,6 +37,11 @@
 	.phankhu .modal-lg{ margin: 1vh 2%; width: 96%; }
 	.phankhu .modal-content{ height: 98vh; }
 	.trangchu .content p{ color: var(--sub-color); }
+	.vitri { padding-bottom: 50px; }
+	.phankhu { padding: 50px 0px }
+	.thuvien{ padding-bottom: 50px; padding-top: 50px; }
+	.dangky{ padding-bottom: 50px; padding-top: 50px; }
+	.lienhe { padding-bottom: 50px; padding-top: 50px; }
 }
 
 @media (max-width: 414px){
