@@ -10,7 +10,7 @@
 	#menu{ background-color:#0c2651 ;     padding-bottom: 10px; padding-top: 10px; }
 	#myVideo{ height: auto !important; top: auto !important; bottom: auto !important; position: relative; margin-bottom: 20px; }
 
-	.vitri img{ width: 100%; height: auto; }
+	.vitri img{ width: 100%; height: auto; margin: 0 auto; }
 	.vitri .content{ padding-left: 30px; padding-right: 30px; padding-top: 0;}
 	/*.vitri .row{ flex-direction: column-reverse; }*/
 	/*.trangchu, .vitri, .tintuc, .thuvien, .dangky, .lienhe{ height: auto !important;}*/

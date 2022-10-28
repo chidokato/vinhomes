@@ -87,7 +87,6 @@
     </div>
 
     <div class="section vitri">
-        <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 content">
                 <h2>Project location</h2>
                 <p>Located at the gateway of Hanoi - Hai Phong highway, in the territory of 2 communes Nghia Tru and Long Hung, Van Giang district, Hung Yen province. Vinhomes Ocean Park 2 - The Empire urban area is parallel to the arterial road connecting "Economic triangle: Hanoi - Hai Phong - Ha Long".</p>
@@ -107,7 +106,6 @@
             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-8">
                 <img src="imgs/vitri.png">
             </div>
-        </div>
     </div>
 
     <div class="section tienich">
