@@ -200,7 +200,7 @@
 
     <div class="section phankhu">
         <div>
-            <!-- <img src="imgs/phoicanh.jpg"> -->
+            <img src="imgs/matbang.jpg">
         </div>
     </div>
     <!-- <div class="section tintuc">
@@ -394,6 +394,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="dist/js/thuvien.js"></script>
 
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        var alterClass = function() {
+            var ww = document.body.clientWidth;
+            if (ww < 414) {
+                $('.owl-carousel').removeClass('slider1');
+                $('.owl-carousel').addClass('slider2');
+            } else if (ww >= 414) {
+                $('.owl-carousel').addClass('slider1');
+                $('.owl-carousel').removeClass('slider2');
+            };
+        };
+        $(window).resize(function(){
+            alterClass();
+        });
+            alterClass();
+    });
+</script>
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {

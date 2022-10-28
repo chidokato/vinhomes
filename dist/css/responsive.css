@@ -26,9 +26,17 @@
 	.dangky form {width: 80%;}
 	.phankhu img{ height: auto; width: 100%; }
 	.thuvien .single-testimonial-item img{ height: 30vh; }
+	.thuvien .modal-lg { width: 96% !important;}
 
 }
 
 @media (max-width: 414px){
 	#fp-nav.fp-left{ display: none; }	
+	.tienich h2{ font-size: 25px; }
+	.tienich h3{ font-size: 20px; }
+	.thuvien .single-testimonial-item img{ height: 30vh; }
+	.thuvien .slider2 .single-testimonial-item img{ height: 50vh !important; }
+	.thuvien .modal-lg{ margin-top: 25vh; }
+	.thuvien .modal-lg { width: 94% !important;}
+
 }
