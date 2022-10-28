@@ -212,6 +212,32 @@
 
     <div class="section phankhu">
         <img src="imgs/matbang.jpg">
+        <div class="container">
+            <div class="menu-matbang">
+                <ul>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu Chà Là </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu San Hô </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu Sao Biển </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu Cọ Xanh </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu Hải Âu </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu Đảo Dừa </a></li>
+                    <li><a data-toggle="modal" data-target="#matbang" href="#"> Phân khu KĐAS </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="modal fade bd-example-modal-lg" id="matbang" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <p>Located at the gateway of Hanoi - Hai Phong highway, in the territory of 2 communes Nghia Tru and Long Hung, Van Giang district, Hung Yen province. Vinhomes Ocean Park 2 - The Empire urban area is parallel to the arterial road connecting "Economic triangle: Hanoi - Hai Phong - Ha Long".</p>
+                    <p>In addition, the project also fully owns the key traffic connections of Gia Lam from everywhere to Vinhomes Ocean Park - The Empire including Co Linh Interchange (400 billion): Completed in January 2021 and broaden with 4 lanes, expected to be completed in 2023.</p>
+                </div>
+              </div>
+            </div>
+        </div>
     </div>
 
 
@@ -419,7 +445,7 @@
         // end slider
         css3:false,
 
-        responsiveWidth: 900
+        // responsiveWidth: 900
 
     });
 

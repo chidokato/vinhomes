@@ -27,7 +27,9 @@
 	.phankhu img{ height: auto; width: 100%; }
 	.thuvien .single-testimonial-item img{ height: 30vh; }
 	.thuvien .modal-lg { width: 96% !important;}
-	.section{ height: auto !important; }
+	/*.section{ height: auto !important; }*/
+	.phankhu .modal-lg{ margin: 1vh 2%; width: 96%; }
+	.phankhu .modal-content{ height: 98vh; }
 }
 
 @media (max-width: 414px){
