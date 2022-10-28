@@ -445,7 +445,7 @@
         // end slider
         css3:false,
 
-        // responsiveWidth: 900
+        responsiveWidth: 900
 
     });
 
