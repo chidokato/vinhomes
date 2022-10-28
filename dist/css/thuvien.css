@@ -39,7 +39,8 @@
 
 .client-testimonial-carousel .owl-dots {
     text-align: center;
-    margin-top: 25px
+    margin-top: 25px; 
+    
 }
 
 .single-testimonial-item {
@@ -63,3 +64,19 @@
 
 
 .thuvien .single-testimonial-item img{ width: 100%; height: 45vh; }
+.thuvien .slider2 .single-testimonial-item img{ width: 100%; height: 80vh; }
+.slider2 .owl-dots {position: absolute; bottom: 0px; padding-bottom: 10px; width: 100%; padding-top: 20px; background-image: linear-gradient(#0d295800, #0d2958ad);}
+
+
+
+/*.single-testimonial-item:after {
+    background: #ddd;
+    content: "";
+    height: 70%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #0b2248;
+}*/

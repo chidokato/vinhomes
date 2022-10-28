@@ -109,8 +109,8 @@
 
 .thuvien h2{ text-align: center; color: #fff; margin-bottom: 20px; }
 .thuvien img{ object-fit: cover !important; }
-.thuvien button{ width: 100%; }
-.thuvien .modal-content{height: 80vh;display: flex;align-items: center;justify-content: center;margin-top: 10vh; }
+.thuvien .modal-lg {width: 80% !important; margin-top: 10vh;}
+.thuvien .modal-body{ padding: 0; }
 
 .dangky h2{ color: #fff; margin-bottom: 30px; }
 .dangky p{ font-size: 14px; text-align: left; }

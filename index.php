@@ -66,7 +66,7 @@
 <div id="fullpage">
     <div class="section trangchu" id="section1">
         <video id="myVideo" loop muted data-autoplay playsinline>
-            <source src="https://vinhomes.vn/themes/porto/video/video-theempire.mp4" type="video/mp4">
+            <!-- <source src="https://vinhomes.vn/themes/porto/video/video-theempire.mp4" type="video/mp4"> -->
         </video>
         <div class="content">
             <p>Located at the gateway of Hanoi - Hai Phong highway, in the territory of 2 communes Nghia Tru and Long Hung, Van Giang district, Hung Yen province. Vinhomes Ocean Park 2 - The Empire urban area is parallel to the arterial road connecting "Economic triangle: Hanoi - Hai Phong - Ha Long".</p>
@@ -198,47 +198,9 @@
     </section>
     </div>
 
-    <!-- <div class="section tienich">
-        <div class="slide active" style="background-image: url(imgs/tinich.png); background-attachment: fixed;">
-            <div class="info">
-                <h2>ĐẠI TIỆN ÍCH</h2>
-                <h3>Đại lộ Kinh đô Ánh sáng Kingdom Avenue</h3>
-                <p>Với điểm nhấn Quảng trường Empire Square và tháp điêu khắc biểu tượng Ánh sáng cao tới 30m</p>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url(imgs/tinich1.png); background-attachment: fixed;">
-            <div class="info">
-                <h2>ĐẠI TIỆN ÍCH</h2>
-                <h3>Trung tâm thương mại VINCOM MEGA MALL</h3>
-                <p>Thiên đường mua sắm, vui chơi, giải trí đẳng cấp Vincom Mega Mall lấy cảm hứng từ những làn sóng văn hoá thời thượng với hàng loạt thương hiệu hàng đầu trong nước và quốc tế, mang đến trải nghiệm tất cả trong một đầy mới mẻ</p>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url(imgs/tinich.png); background-attachment: fixed;">
-            <div class="info">
-                <h2>ĐẠI TIỆN ÍCH</h2>
-                <h3>Trung tâm thương mại VINCOM MEGA MALL</h3>
-                <p>Thiên đường mua sắm, vui chơi, giải trí đẳng cấp Vincom Mega Mall lấy cảm hứng từ những làn sóng văn hoá thời thượng với hàng loạt thương hiệu hàng đầu trong nước và quốc tế, mang đến trải nghiệm tất cả trong một đầy mới mẻ</p>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url(imgs/tinich1.png); background-attachment: fixed;">
-            <div class="info">
-                <h2>ĐẠI TIỆN ÍCH</h2>
-                <h3>Trung tâm thương mại VINCOM MEGA MALL</h3>
-                <p>Thiên đường mua sắm, vui chơi, giải trí đẳng cấp Vincom Mega Mall lấy cảm hứng từ những làn sóng văn hoá thời thượng với hàng loạt thương hiệu hàng đầu trong nước và quốc tế, mang đến trải nghiệm tất cả trong một đầy mới mẻ</p>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url(imgs/tinich.png); background-attachment: fixed;">
-            <div class="info">
-                <h2>ĐẠI TIỆN ÍCH</h2>
-                <h3>Trung tâm thương mại VINCOM MEGA MALL</h3>
-                <p>Thiên đường mua sắm, vui chơi, giải trí đẳng cấp Vincom Mega Mall lấy cảm hứng từ những làn sóng văn hoá thời thượng với hàng loạt thương hiệu hàng đầu trong nước và quốc tế, mang đến trải nghiệm tất cả trong một đầy mới mẻ</p>
-            </div>
-        </div>
-    </div> -->
-
     <div class="section phankhu">
         <div>
-            <img src="imgs/phoicanh.jpg">
+            <!-- <img src="imgs/phoicanh.jpg"> -->
         </div>
     </div>
     <!-- <div class="section tintuc">
@@ -310,41 +272,35 @@
                     <div class="col-md-12">
                         <div class="section-title">
                             <h2>THƯ VIỆN HÌNH ẢNH</h2>
-
-                            <div class="section-borders">
-                                <span></span>
-                                <span class="black-border"></span>
-                                <span></span>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="owl-carousel client-testimonial-carousel">
+                        <div class="owl-carousel slider1 client-testimonial-carousel">
                             <div class="single-testimonial-item">
                                 <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
-                            </div>
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich.png">
-                            </div>
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
-                            </div>
-                            <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich.png">
                             </div>
                             <div class="single-testimonial-item">
                                 <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
                             </div>
                             <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich.png">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
                             </div>
                             <div class="single-testimonial-item">
                                 <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
                             </div>
                             <div class="single-testimonial-item">
-                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich.png">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
+                            </div>
+                            <div class="single-testimonial-item">
+                                <img data-toggle="modal" data-target="#myModal" src="imgs/tinich1.png">
                             </div>
                         </div>
                     </div>
@@ -357,7 +313,32 @@
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-body">
-                    ád
+                    <div class="owl-carousel slider2 client-testimonial-carousel">
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="imgs/tinich1.png">
+                        </div>
+                    </div>
                 </div>
               </div>
             </div>
