@@ -7,7 +7,7 @@
 	.d-none{ display: block !important; }
 	.m-none{ display: none; }
 	.menu .logo img{ height: 70px; }
-	#menu{ background-color:#0c2651 ; }
+	#menu{ background-color:#0c2651 ;     padding-bottom: 10px; padding-top: 10px; }
 	#myVideo{ height: auto !important; top: auto !important; bottom: auto !important; position: relative; margin-bottom: 20px; }
 
 	.vitri img{ width: 100%; height: auto; }
