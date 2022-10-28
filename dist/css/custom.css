@@ -37,17 +37,17 @@
     background: #0c254e;
 }*/
 #section3{
-    background-image: url(imgs/bg4.jpg);
+    /*background-image: url(imgs/bg4.jpg);*/
     background-attachment: fixed;
 }
 #section3 h1{
     color: #000;
 }
 #slide1{
-    background-image: url(imgs/bg1.jpg);
+    /*background-image: url(imgs/bg1.jpg);*/
 }
 #slide2{
-    background-image: url(imgs/bg5.jpg);
+    /*background-image: url(imgs/bg5.jpg);*/
 }
 
 #fp-nav ul li .fp-tooltip.fp-left {
@@ -70,7 +70,7 @@
     z-index:3;
 }
 
-.line2{ -webkit-line-clamp: 2;     display: -webkit-box !important; -webkit-box-orient: vertical; overflow: hidden;  }
+.line2{ -webkit-line-clamp: 2; display: -webkit-box !important; -webkit-box-orient: vertical; overflow: hidden;  }
 
 
 #menu{ background-image: linear-gradient(#0d2958ad, #0d295800); padding-bottom: 50px; }
@@ -82,7 +82,7 @@
 .trangchu button{ position: absolute; z-index: 9; bottom: 20px; right: 20px;  }
 .trangchu .modal-body p{ color: #000; font-size: 14px; text-align: left; }
 
-.vitri, .tintuc, .thuvien, .dangky, .lienhe { background-image: url(../../imgs/bg-main.png); background-attachment: fixed; }
+/*.vitri, .tintuc, .thuvien, .dangky, .lienhe { background-image: url(../../imgs/bg-main.png); background-attachment: fixed; }*/
 .vitri img{ height: 100vh; width: 100%; object-fit: cover;}
 .vitri .content{ display: flex; flex-direction: column; text-align: left; justify-content: center; padding-left: 100px; padding-top: 180px; }
 .vitri .content h2{ color: #E0CDAE; font-size: 26px; }
