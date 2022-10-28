@@ -24,11 +24,9 @@
 
 .section, .slide {
     background-size: cover !important;
-    background-attachment: fixed;
 }
 #section0, #section1, #section2, #section3, #slide1, #slide2 {
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 /*#section0{
@@ -44,7 +42,6 @@
 }*/
 #section3{
     /*background-image: url(imgs/bg4.jpg);*/
-    background-attachment: fixed;
 }
 #section3 h1{
     color: #000;
@@ -131,7 +128,7 @@
 .swiper-slide {cursor: pointer;}
 .swiper-pagination-bullet-active {width: 30px !important;border-radius: 10px;}
 
-.dangky { background-color: var(--main-color); background-attachment: fixed; background-image: url(../../imgs/bg-main.png) }
+.dangky { background-color: var(--main-color); background-image: url(../../imgs/bg-main.png) }
 .dangky h2{ color: #fff; margin-bottom: 30px; }
 .dangky p{ font-size: 14px; text-align: left; }
 .dangky form{ width: 40%; margin: 0 auto; }
