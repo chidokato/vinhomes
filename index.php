@@ -413,6 +413,7 @@
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: true,
         // sectionsColor: ['#0c254e', '#1f4481', '#0c254e', '#0c254e', '#0c254e', '#0c254e', '#0c254e'], // backgroud corlor
 
         anchors: ['trangchu', 'vitri', 'tienich', 'phankhu', 'thuvien', 'dangky', 'lienhe'],
