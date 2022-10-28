@@ -37,9 +37,9 @@
 	.tienich h3{ font-size: 20px; }
 	.thuvien .single-testimonial-item img{ height: 30vh; }
 	.thuvien .slider2 .single-testimonial-item img{ height: 50vh !important; }
-	.thuvien .modal-lg{ margin-top: 15vh; }
+	.thuvien .modal-lg{ margin-top: 10vh; }
 	.thuvien .modal-lg { width: 94% !important;}
 	.thuvien .container{ margin: inherit !important; }
-	.thuvien .modal-body img{ height: 70vh; }
+	.thuvien .modal-body img{ height: 60vh; }
 
 }
