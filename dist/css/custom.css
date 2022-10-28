@@ -80,19 +80,20 @@
 .menu{ justify-content: space-between !important; padding-left: 100px !important; }
 .menu .logo img{ height: 100px; }
 
+.trangchu {background-image: url(../../imgs/bg-main.png) }
 .trangchu .content{ padding: 20px; }
 .trangchu .content p{ font-size: 14px; text-align: justify; }
 .trangchu button{ position: absolute; z-index: 9; bottom: 20px; right: 20px;  }
 .trangchu .modal-body p{ color: #000; font-size: 14px; text-align: left; }
 
-.vitri { background-color: #1f4481;}
+.vitri { background-color: #1f4481; background-image: url(../../imgs/bg-main.png) }
 .vitri img{ height: 100vh; width: 100%; object-fit: cover;}
 .vitri .content{ display: flex; flex-direction: column; text-align: left; justify-content: center; padding-left: 100px; padding-top: 180px; }
 .vitri .content h2{ color: #E0CDAE; font-size: 26px; }
 .vitri .content p{ color: #E0CDAE; font-size: 14px; }
 .vitri .content ul li{ color: #fff; font-size: 14px; list-style: circle; margin-left: 20px; font-size: 13px; }
 
-.phankhu { background-color: var(--main-color); }
+.phankhu { background-color: var(--main-color); background-image: url(../../imgs/bg-main.png)  }
 .phankhu .image-full{ width: 100%; height: 100%; }
 .phankhu img{ width: 100%; }
 .menu-matbang ul{ display: flex; justify-content: center; margin-top: 10px;flex-wrap: wrap; }
@@ -103,7 +104,7 @@
 .phankhu .modal-body p{ color: #000; font-size: 14px; text-align: left; }
 .phankhu h2{ color: #fff; padding: 10px; }
 
-.tienich { background-color: var(--main-color-2); }
+.tienich { background-color: var(--main-color-2); background-image: url(../../imgs/bg-main.png)  }
 .tienich .slide{justify-content: flex-end; }
 .tienich h2{ color: #fff; font-size: 35px; }
 .tienich h3{ color: #fff; font-size: 30px; }
