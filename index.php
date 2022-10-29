@@ -62,14 +62,187 @@
 
 <div id="fullpage">
     <div class="section trangchu" id="section1">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/skin/blue.monday/css/jplayer.blue.monday.min.css" rel="stylesheet">
+
+<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/add-on/jplayer.playlist.min.js"></script>
+
+<!-- DEFAULT JPLAYER VIDEO HTML WRAPPER -->
+<div id="jp_video_container" class="jp-video jp-video-270p" role="application" aria-label="media player">
+    <div class="jp-type-playlist">
+        <div id="jp_video" class="jp-jplayer"></div>
+        <div class="jp-gui">
+            <div class="jp-video-play">
+                <button class="jp-video-play-icon" role="button" tabindex="0">play</button>
+            </div>
+            <div class="jp-interface">
+                <div class="jp-progress">
+                    <div class="jp-seek-bar">
+                        <div class="jp-play-bar"></div>
+                    </div>
+                </div>
+                <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                <div class="jp-controls-holder">
+                    <div class="jp-controls">
+                        <button class="jp-previous" role="button" tabindex="0">previous</button>
+                        <button class="jp-play" role="button" tabindex="0">play</button>
+                        <button class="jp-next" role="button" tabindex="0">next</button>
+                        <button class="jp-stop" role="button" tabindex="0">stop</button>
+                    </div>
+                    <div class="jp-volume-controls">
+                        <button class="jp-mute" role="button" tabindex="0">mute</button>
+                        <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                        <div class="jp-volume-bar">
+                            <div class="jp-volume-bar-value"></div>
+                        </div>
+                    </div>
+                    <div class="jp-toggles">
+                        <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                        <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+                        <button class="jp-full-screen" role="button" tabindex="0">full screen</button>
+                    </div>
+                </div>
+                <div class="jp-details">
+                    <div class="jp-title" aria-label="title">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <div class="jp-playlist">
+            <ul>
+                <!-- The method Playlist.displayPlaylist() uses this unordered list -->
+                <li>&nbsp;</li>
+            </ul>
+        </div>
+        <div class="jp-no-solution">
+            <span>Update Required</span>
+            To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+    </div>
+</div>
+<!-- END JPLAYER VIDEO HTML WRAPPER -->
+<script type="text/javascript">
+    $(function() {
+  /* Load jPlayer */
+   new jPlayerPlaylist({
+            jPlayer: "#jp_video",
+            cssSelectorAncestor: "#jp_video_container"
+        }, [
+            {
+                title:"Finding Nemo Teaser",
+                m4v: "http://www.jplayer.org/video/m4v/Finding_Nemo_Teaser.m4v",
+            },
+            {
+                type: "youtube", /* <- Remember to add this */
+                title: "Finding Dory - Youtube",
+                m4v:"https://www.youtube.com/watch?v=cfLob5IYMp8",
+            },
+            {
+                title:"Incredibles Teaser",
+                m4v: "http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v",
+            }
+        ], {
+            playlistOptions: {
+                autoPlay: true
+            },
+            supplied: "m4v",
+            smoothPlayBar: true,
+            keyEnabled: false,
+        });
+  
+    /* Youtube Integration Setup */
+    var setupYoutube = function(whereDivTo, width, height) {
+        $("<div>").attr("id", "ytplayer").appendTo(whereDivTo);
+
+        onYouTubeIframeAPIReady = function() {
+            youtubeApi = new YT.Player("ytplayer", {
+                width: width,
+                height: height,
+        videoId: "cfLob5IYMp8",
+                playerVars: {
+                    "autoplay": 1,
+                    "color": "white",
+                    "modestbranding": 1,
+                    "rel": 0,
+                    "showinfo": 0,
+                    "theme": "light"
+                },
+                events: {
+                    "onReady": function() {
+                        $(document).trigger("ready.Youtube");
+                    },
+                    "onStateChange": "youtubeStateChange"
+                }
+            });
+        }
+
+        $.getScript("//www.youtube.com/player_api");
+    },
+    loadYoutubeListeners = function(player, jplayer, id) {
+        var container = $(player.options.cssSelector.gui, player.options.cssSelectorAncestor);
+
+        youtubeStateChange = function(ytEvent) {
+            switch(ytEvent.data) {
+                case -1:
+                    $(ytEvent.target.getIframe()).show();
+                    $(jplayer).find('video').hide();
+                    container.css({ 'opacity' : 0, 'z-index': -1, 'position' : 'relative' });
+                    container.find('.jp-interface').slideUp("slow");
+                break;
+
+                case YT.PlayerState.ENDED:
+                    $(jplayer).trigger($.jPlayer.event.ended);
+                break;
+
+                case YT.PlayerState.CUED:
+                    $(jplayer).find('video').show();
+                    $(ytEvent.target.getIframe()).hide();
+                    container.css({ 'opacity' : 1, 'z-index': 0 });
+                    container.find('.jp-interface').slideDown("slow");
+
+            }
+        };
+
+        youtubeApi.loadVideoById(id);
+    }
+
+    $(document).on($.jPlayer.event.setmedia, function(jpEvent) {
+        var player = jpEvent.jPlayer,
+            url = player.status.src;
+
+        if(!player.html.video.available) return;
+        if(typeof player.status.media.type === "undefined" || player.status.media.type != 'youtube') {
+            if(window['youtubeApi'])
+                if(youtubeApi.getPlayerState() != YT.PlayerState.CUED && youtubeApi.getPlayerState() != YT.PlayerState.ENDED)
+                    return youtubeApi.stopVideo();
+
+            return;
+        }
+
+        var youtubeId = url.match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)[1]
+
+        if(window['youtubeApi'])
+            loadYoutubeListeners(player, jpEvent.target, youtubeId);
+        else {
+            setupYoutube(jpEvent.target, player.status.width, player.status.height);
+
+            $(document).on("ready.Youtube", function() {
+                loadYoutubeListeners(player, jpEvent.target, youtubeId);
+            });
+        }
+    });
+});
+
+</script>
+    </div>
+    <div class="section trangchu" id="section1">
         <video id="myVideo" loop muted data-autoplay playsinline>
             <source src="imgs/flowers.mp4" type="video/mp4">
             <source src="imgs/flowers.webm" type="video/webm">
             <source src="imgs/flowers.ogg" type="video/ogg">
         </video>
-        <script>
-            document.getElementById('myVideo').play();
-        </script>
+        
         <!-- <div class="layer">
             <h1>fullPage.js videos</h1>
             <p>Don't forget to add "playsinline" attribute to make it work on phones</p>
