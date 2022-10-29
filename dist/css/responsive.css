@@ -14,7 +14,7 @@
 	.vitri .content{ padding-left: 10px; padding-right: 10px; padding-top: 0;}
 	/*.vitri .row{ flex-direction: column-reverse; }*/
 	/*.trangchu, .vitri, .tintuc, .thuvien, .dangky, .lienhe{ height: auto !important;}*/
-	.trangchu{ padding-top: 80px; }
+	.trangchu{ padding-top: 90px; }
 	.vitri{ padding-top: 30px; }
 	body section.slideshow { height: 50vh; }
 	body section.slideshow .detail .detail-item .background{ position: unset;transform: none !important; height: 50vh !important; }
