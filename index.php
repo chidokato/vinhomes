@@ -62,7 +62,7 @@
 
 <div id="fullpage">
     <div class="section trangchu" id="section1">
-        <video id="myVideo" autoplay muted playsinline>
+        <video id="myVideo" loop muted playsinline preload>
             <source src="imgs/flowers.mp4" type="video/mp4">
         </video>
         <script>
