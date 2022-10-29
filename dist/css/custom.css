@@ -71,7 +71,7 @@
     background-image: /* our video */;
     background-position: center center;
     background-size: contain;
-    object-fit: cover; /*cover video background */
+    object-fit: fill; /*cover video background */
     z-index:3;
 }
 
