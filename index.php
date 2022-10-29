@@ -25,6 +25,72 @@
     <link rel="stylesheet" type="text/css" href="dist/css/custom.css" /> <!-- main -->
     <link rel="stylesheet" type="text/css" href="dist/css/responsive.css" /> <!-- responsive -->
 
+    <style>
+
+    /* Centered texts in each section
+    * --------------------------------------- */
+    .section{
+        text-align:center;
+        overflow: hidden;
+    }
+
+    #myVideo{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top:0;
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-color: black; /* in case the video doesn't fit the whole page*/
+        background-image: /* our video */;
+        background-position: center center;
+        background-size: contain;
+        z-index:3;
+    }
+
+
+
+    /* Layer with position absolute in order to have it over the video
+    * --------------------------------------- */
+    #section0 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 43%;
+
+        /*
+        * Preventing flicker on some browsers
+        * See http://stackoverflow.com/a/36671466/1081396  or issue #183
+        */
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    /*solves problem with overflowing video in Mac with Chrome */
+    #section0{
+        overflow: hidden;
+    }
+
+
+    /* Bottom menu
+    * --------------------------------------- */
+    #infoMenu li a {
+        color: #fff;
+    }
+
+
+    /* Hiding video controls
+    * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
+    * --------------------------------------- */
+    video::-webkit-media-controls {
+      display:none !important;
+    }
+
+    </style>
+
 </head>
 <body>
     <div id="menu" class="menu">
@@ -62,12 +128,9 @@
 
 <div id="fullpage">
     <div class="section trangchu" id="section1">
-        <video id="myVideo" muted playsinline>
-            <source src="VinOP3.mp4" type="video/mp4">
+        <video id="myVideo" loop muted data-autoplay playsinline>
+            <source src="https://vinhomesinvest.net/VinOP3.mp4" type="video/mp4">
         </video>
-        <script>
-            document.getElementById('myVideo').play();
-        </script>
         
         <div class="layer">
             <p>Located at the gateway of Hanoi - Hai Phong highway, in the territory of 2 communes Nghia Tru and Long Hung, Van Giang district, Hung Yen province. Vinhomes Ocean Park 2 - The Empire urban area is parallel to the arterial road connecting "Economic triangle: Hanoi - Hai Phong - Ha Long".</p>
