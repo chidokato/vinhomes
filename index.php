@@ -61,9 +61,8 @@
 
 
 <div id="fullpage">
-   
     <div class="section trangchu" id="section1">
-        <video id="myVideo" muted data-autoplay playsinline>
+        <video id="myVideo" loop muted autoplay playsinline>
             <source src="imgs/flowers.mp4" type="video/mp4">
             <source src="imgs/flowers.webm" type="video/webm">
             <source src="imgs/flowers.ogg" type="video/ogg">
@@ -86,10 +85,6 @@
                 </div>
               </div>
             </div>
-        </div>
-
-        <div class="content">
-            
         </div>
     </div>
 
