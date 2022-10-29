@@ -62,7 +62,7 @@
 
 <div id="fullpage">
     <div class="section trangchu" id="section1">
-        <video id="myVideo" autoplay muted>
+        <video id="myVideo" autoplay muted playsinline>
             <source src="imgs/flowers.mp4" type="video/mp4">
             <source src="imgs/flowers.webm" type="video/webm">
             <source src="imgs/flowers.ogg" type="video/ogg">
