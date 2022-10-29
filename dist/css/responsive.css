@@ -66,4 +66,5 @@
 	.menu-matbang ul{ flex-direction: column; }
 	.menu-matbang ul li{ margin: 0 20%; text-align: left; }
 	.menu-matbang ul li a{ padding-left: 0px; }
+	.menu {padding-left: 125px !important;}
 }
