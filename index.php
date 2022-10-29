@@ -62,8 +62,7 @@
 
 <div id="fullpage">
     <div class="section trangchu" id="section1">
-        <!-- <video id="myVideo" loop muted autoplay playsinline> -->
-        <video height="256" loop="true" autoplay="autoplay" id="myVideo" muted>
+        <video id="myVideo" autoplay muted loop playsinline>
             <source src="imgs/flowers.mp4" type="video/mp4">
             <source src="imgs/flowers.webm" type="video/webm">
             <source src="imgs/flowers.ogg" type="video/ogg">
