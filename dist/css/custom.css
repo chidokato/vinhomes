@@ -83,8 +83,8 @@
 .menu .logo img{ height: 100px; }
 
 .trangchu {background-image: url(../../imgs/bg-main.png) }
-.trangchu .content{ padding: 20px; }
-.trangchu .content p{ font-size: 14px; text-align: justify; }
+.trangchu .layer{ padding: 20px; }
+.trangchu .layer p{ font-size: 14px; text-align: justify; }
 .trangchu button{ position: absolute; z-index: 9; bottom: 20px; right: 20px;  }
 .trangchu .modal-body p{ color: #000; font-size: 14px; text-align: left; }
 

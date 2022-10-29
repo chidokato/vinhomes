@@ -63,16 +63,16 @@
 <div id="fullpage">
    
     <div class="section trangchu" id="section1">
-        <video id="myVideo" muted autoplay playsinline>
+        <video id="myVideo" muted data-autoplay playsinline>
             <source src="imgs/flowers.mp4" type="video/mp4">
             <source src="imgs/flowers.webm" type="video/webm">
             <source src="imgs/flowers.ogg" type="video/ogg">
         </video>
         
-        <!-- <div class="layer">
-            <h1>fullPage.js videos</h1>
-            <p>Don't forget to add "playsinline" attribute to make it work on phones</p>
-        </div> -->
+        <div class="layer">
+            <p>Located at the gateway of Hanoi - Hai Phong highway, in the territory of 2 communes Nghia Tru and Long Hung, Van Giang district, Hung Yen province. Vinhomes Ocean Park 2 - The Empire urban area is parallel to the arterial road connecting "Economic triangle: Hanoi - Hai Phong - Ha Long".</p>
+            <p>In addition, the project also fully owns the key traffic connections of Gia Lam from everywhere to Vinhomes Ocean Park - The Empire including Co Linh Interchange (400 billion): Completed in January 2021 and broaden with 4 lanes, expected to be completed in 2023.</p>
+        </div>
         <button class="m-none" data-toggle="modal" data-target="#trangchu" type="button">Chi tiết</button>
         <div class="modal fade bd-example-modal-lg" id="trangchu" role="dialog">
             <div class="modal-dialog modal-lg">
@@ -89,8 +89,7 @@
         </div>
 
         <div class="content">
-            <p>Located at the gateway of Hanoi - Hai Phong highway, in the territory of 2 communes Nghia Tru and Long Hung, Van Giang district, Hung Yen province. Vinhomes Ocean Park 2 - The Empire urban area is parallel to the arterial road connecting "Economic triangle: Hanoi - Hai Phong - Ha Long".</p>
-            <p>In addition, the project also fully owns the key traffic connections of Gia Lam from everywhere to Vinhomes Ocean Park - The Empire including Co Linh Interchange (400 billion): Completed in January 2021 and broaden with 4 lanes, expected to be completed in 2023.</p>
+            
         </div>
     </div>
 
