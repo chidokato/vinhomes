@@ -62,7 +62,7 @@
 
 <div id="fullpage">
     <div class="section trangchu" id="section1">
-        <video id="myVideo" loop muted playsinline preload>
+        <video id="myVideo" muted playsinline>
             <source src="VinOP3.mp4" type="video/mp4">
         </video>
         <script>
