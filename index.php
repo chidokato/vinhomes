@@ -65,6 +65,7 @@
         <video id="myVideo" loop muted data-autoplay playsinline>
             <source src="imgs/flowers.mp4" type="video/mp4">
             <source src="imgs/flowers.webm" type="video/webm">
+            <source src="imgs/flowers.ogg" type="video/ogg">
         </video>
         <script>
             document.getElementById('myVideo').play();
