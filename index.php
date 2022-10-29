@@ -63,7 +63,7 @@
 <div id="fullpage">
     <div class="section trangchu" id="section1">
         <video id="myVideo" loop muted data-autoplay playsinline controls>
-            <source src="https://vinhomesinvest.net/VinOP3.mp4" type="video/mp4">
+            <source src="VinOP3.mp4" type="video/mp4">
         </video>
         
         <div class="layer">
