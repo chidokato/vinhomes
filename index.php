@@ -66,6 +66,9 @@
             <source src="imgs/flowers.mp4" type="video/mp4">
             <source src="imgs/flowers.webm" type="video/webm">
         </video>
+        <script>
+            document.getElementById('myVideo').play();
+        </script>
         <!-- <div class="layer">
             <h1>fullPage.js videos</h1>
             <p>Don't forget to add "playsinline" attribute to make it work on phones</p>
